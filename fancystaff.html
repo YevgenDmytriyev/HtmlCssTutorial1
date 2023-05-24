@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fancy Staff</title>
+    <style>
+        .rotate{
+        width: 100px;
+        animation: rotation 2s infinite linear;
+        }
+        @keyframes rotation {
+        from {
+        transform: rotate(0deg);
+        }
+        to {
+        transform: rotate(359deg);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <img src="img.svg" class="rotate"/>
+    </div>
+</body>
+</html>
